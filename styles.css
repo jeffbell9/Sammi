@@ -84,7 +84,7 @@ body {
     width: 25%;
     position: absolute;
     top: 20%;
-    left: 40%;
+    left: 39%;
     display: none;
 }
 
@@ -177,7 +177,7 @@ body {
     text-align: center;
     background: transparent;
     position: absolute;
-    left: 40%;
+    left: 39%;
     top: 0;
     z-index: 100;
     color: lightgray;
