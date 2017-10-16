@@ -1,0 +1,207 @@
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+
+body {
+    background-color: black;
+    font-family: 'Rock Salt', cursive;
+}
+
+#sammiEyes {
+    width: 54%;
+    margin: 0 auto;
+    display: none;
+}
+
+#sammiCar {
+    width: 33%;
+    position: absolute;
+    bottom: 2%;
+    left: 3%;
+    display: none;
+}
+
+#sammiFirepit {
+    width: 33%;
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    display: none;
+}
+
+#sammiBeach {
+    width: 15%;
+    position: absolute;
+    bottom: 0;
+    right: 3%;
+    display: none;
+}
+
+#sammiSound {
+    width: 23%;
+    position: absolute;
+    bottom: 2%;
+    right: 23%;
+    display: none;
+}
+
+#sammiTrail {
+    width: 33%;
+    position: absolute;
+    top: 5%;
+    left: 11%;
+    display: none;
+}
+
+#sammiBeachBall {
+    width: 37%;
+    position: absolute;
+    top: 2%;
+    bottom: 12%;
+    left: 35%;
+    right: 3%;
+    display: none;
+}
+
+#sammiXmas {
+    width: 33%;
+    position: absolute;
+    top: 15%;
+    right: 6%;
+    display: none;
+}
+
+#sammiEyes2 {
+    width: 33%;
+    position: absolute;
+    bottom: 2%;
+    left: 16%;
+    display: none;
+}
+
+#sammiSnow {
+    width: 25%;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    display: none;
+}
+
+#sammiCar img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px 7px white;
+    border-radius: 2%;
+}
+
+#sammiFirepit img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px 7px white;
+    border-radius: 2%;
+}
+
+#sammiBeach img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px 7px white;
+    border-radius: 2%;
+}
+
+#sammiSound img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px 7px white;
+    border-radius: 2%;
+}
+
+#sammiTrail img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px 7px white;
+    border-radius: 2%;
+}
+
+#sammiBeachBall img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px 7px white;
+    border-radius: 2%;
+}
+
+#sammiXmas img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px 7px white;
+    border-radius: 2%;
+}
+
+#sammiEyes2 img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px 7px white;
+    border-radius: 2%;
+}
+
+#sammiEyes img {
+    width: 100%;
+    height: auto;
+	-ms-transform: rotate(90deg); /* IE 9 */
+	-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    box-shadow: 0px 0px 30px 7px white;
+    border-radius: 2%;
+}
+
+#sammiSnow img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px 7px white;
+    border-radius: 2%;
+}
+
+#inMemoriam {
+    text-align: center;
+    background: transparent;
+    position: absolute;
+    left: 36%;
+    top: 7%;
+    z-index: 100;
+    color: lightgray;
+    font-size: 2em;
+    display: none;
+}
+
+#miss {
+    text-align: center;
+    background: transparent;
+    position: absolute;
+    left: 40%;
+    top: 0;
+    z-index: 100;
+    color: lightgray;
+    font-size: 2em;
+    display: none;
+}
+
+#inMemoriam p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#quote {
+    text-align: center;
+    background: transparent;
+    position: absolute;
+    left: 5%;
+    top: 0;
+    z-index: 100;
+    color: gray;
+    font-size: 1.5em;
+    width: 45%;
+    margin: 0 auto;
+    display: none;
+    line-height: 60px;
+    margin-top: 5px;
+}
