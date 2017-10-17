@@ -46,6 +46,14 @@ body {
     display: none;
 }
 
+#sammiLuke {
+    width: 33%;
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    display: none;
+}
+
 #sammiTrail {
     width: 33%;
     position: absolute;
@@ -110,6 +118,13 @@ body {
 }
 
 #sammiSound img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px 7px white;
+    border-radius: 2%;
+}
+
+#sammiLuke img {
     width: 100%;
     height: auto;
     box-shadow: 0px 0px 30px 7px white;

@@ -12,6 +12,10 @@ setTimeout(function() {
 }, 40000);
 
 setTimeout(function() {
+    $("#sammiLuke").fadeIn(25000).delay(1000).fadeOut(12000);
+}, 50000);
+
+setTimeout(function() {
     $("#miss").fadeIn(15000);
 }, 139000);
 
