@@ -184,7 +184,7 @@ body {
     top: 7%;
     z-index: 100;
     color: lightgray;
-    font-size: 2em;
+    font-size: 2rem;
     display: none;
 }
 
@@ -196,7 +196,7 @@ body {
     top: 0;
     z-index: 100;
     color: lightgray;
-    font-size: 2em;
+    font-size: 2rem;
     display: none;
 }
 
@@ -213,7 +213,7 @@ body {
     top: 0;
     z-index: 100;
     color: gray;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     width: 45%;
     margin: 0 auto;
     display: none;
