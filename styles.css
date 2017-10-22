@@ -4,6 +4,16 @@ body {
     font-size: .95em;
 }
 
+#hideAll {
+  position: fixed;
+  left: 0px; 
+  right: 0px; 
+  top: 0px; 
+  bottom: 0px; 
+  background-color: lightgray;
+  z-index: 99;
+}
+
 .first-tier {
     position: absolute;
     left: 0;
