@@ -1,7 +1,17 @@
 'use strict'
 
-$("#sammiEyes").fadeIn(4500).delay(500).fadeOut(30000);
-$("#inMemoriam").fadeIn(4500).delay(26000).fadeOut(11000);
+//$("#sammiEyes").fadeIn(4500).delay(500).fadeOut(30000);
+//$("#inMemoriam").fadeIn(4500).delay(26000).fadeOut(11000);
+
+setTimeout(function() {
+    $("#sammiEyes").fadeOut(30000);
+}, 5000);
+
+setTimeout(function() {
+    $("#inMemoriam").fadeOut(11000);
+}, 30500);
+
+
 
 setTimeout(function() {
     $("#quote").fadeIn(5000).delay(20000).fadeOut(5000);
@@ -12,7 +22,7 @@ setTimeout(function() {
 }, 40000);
 
 setTimeout(function() {
-    $("#sammiLuke").fadeIn(25000).delay(1000).fadeOut(12000);
+    $("#sammiLuke").fadeIn(20000).fadeOut(6000);
 }, 50000);
 
 setTimeout(function() {

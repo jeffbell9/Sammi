@@ -1,98 +1,121 @@
-/** {
-    margin: 0;
-    padding: 0;
-}*/
-
 body {
     background-color: black;
     font-family: 'Rock Salt', cursive;
+    font-size: .95em;
+}
+
+.first-tier {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.second-tier {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 200;
+}
+
+.third-tier {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 201;
 }
 
 #sammiEyes {
-    width: 54%;
-    margin: 0 auto;
-    display: none;
+    width: 100%;
+    margin-top: 100px;
 }
 
 #sammiCar {
-    width: 33%;
-    position: absolute;
-    bottom: 2%;
-    left: 3%;
+    width: 53%;
     display: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 350px;
 }
 
 #sammiFirepit {
-    width: 33%;
+    width: 100%;
     position: absolute;
-    top: 2%;
-    right: 3%;
+    right: 0;
+    left: 0;
+    margin-top: 25px;
     display: none;
 }
 
 #sammiBeach {
-    width: 15%;
+    width: 45%;
     position: absolute;
-    bottom: 0;
-    right: 3%;
+    right: 0;
+    left: 0;
+    margin-top: 325px;
     display: none;
 }
 
 #sammiSound {
-    width: 23%;
+    width: 53%;
     position: absolute;
-    bottom: 2%;
-    right: 23%;
+    right: 0;
+    left: 0;
+    margin-top: 400px;
     display: none;
 }
 
 #sammiLuke {
-    width: 33%;
+    width: 100%;
     position: absolute;
-    top: 2%;
-    right: 3%;
+    right: 0;
+    left: 0;
+    margin-top: 25px;
     display: none;
 }
 
 #sammiTrail {
-    width: 33%;
+    width: 100%;
     position: absolute;
-    top: 5%;
-    left: 11%;
+    right: 0;
+    left: 0;
+    margin-top: 25px;
     display: none;
 }
 
 #sammiBeachBall {
-    width: 37%;
+    width: 100%;
     position: absolute;
-    top: 2%;
-    bottom: 12%;
-    left: 35%;
-    right: 3%;
+    right: 0;
+    left: 0;
+    margin-top: 25px;
     display: none;
 }
 
 #sammiXmas {
-    width: 33%;
+    width: 100%;
     position: absolute;
-    top: 15%;
-    right: 6%;
+    right: 0;
+    left: 0;
+    margin-top: 55px;
     display: none;
 }
 
 #sammiEyes2 {
-    width: 33%;
+    width: 100%;
     position: absolute;
-    bottom: 2%;
-    left: 16%;
+    right: 0;
+    left: 0;
+    margin-top: 25px;
     display: none;
 }
 
 #sammiSnow {
-    width: 25%;
+    width: 100%;
     position: absolute;
-    top: 20%;
-    left: 39%;
+    right: 0;
+    left: 0;
+    margin-top: 120px;
     display: none;
 }
 
@@ -177,46 +200,82 @@ body {
 }
 
 #inMemoriam {
-    text-align: center;
     background: transparent;
     position: absolute;
-    left: 36%;
-    top: 7%;
+    right: 0;
+    left: 0;
     z-index: 100;
     color: lightgray;
-    font-size: 2rem;
-    display: none;
+    margin-top: 15px;
 }
 
 #miss {
     text-align: center;
     background: transparent;
     position: absolute;
-    left: 39%;
-    top: 0;
+    right: 0;
+    left: 0;
     z-index: 100;
     color: lightgray;
-    font-size: 2rem;
     display: none;
+    margin-top: 30px;
+    font-size: 1em;
 }
 
 #inMemoriam p {
-    margin-bottom: 0;
-    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#inMemoriam > #firstP {
+    margin-bottom: 110px;
 }
 
 #quote {
     text-align: center;
     background: transparent;
     position: absolute;
-    left: 5%;
-    top: 0;
-    z-index: 100;
+    right: 0;
+    left: 0;
     color: gray;
-    font-size: 1.5rem;
-    width: 45%;
-    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 1em;
     display: none;
-    line-height: 60px;
-    margin-top: 5px;
+}
+
+@media (min-width: 576px) {
+    body {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1.5em;
+    }
+
+    #quote {
+        font-size: .9em;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 2em;
+    }
+
+    #quote {
+        font-size: .74em;
+    }
+
+    #sammiSnow,
+    #miss {
+        width: 90%;
+    }
 }

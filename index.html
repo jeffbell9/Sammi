@@ -13,57 +13,65 @@
     <body>
         <audio src="./audio/Tomo Nakayama - Pieces of Sky - 08 Walking for Two.mp3" autoplay></audio>
         <div class="container">
-            <div class="row">
-                <div id="inMemoriam">
-                    <p>In Memoriam</p>
-                    <p>Sammi Davis, Jr Jr</p>
-                    <p>2007 - 2017</p>
+            <div class="row first-tier">
+                <div class="col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                    <div id="inMemoriam">
+                        <p id="firstP">In Memoriam</p>
+                        <p>Sammi Davis, Jr Jr</p>
+                        <p>2007 - 2017</p>
+                    </div>
+                    <div id="sammiEyes">
+                        <img class="img-fluid" src="./images/sammi-eyes.jpg" alt="Goofy picture of Sam">
+                    </div>
                 </div>
-                <div id="quote">
+            </div>
+            <div class="row second-tier">
+                <div id="sammiCar" class="sammiPic col-12 offset-1 col-sm-10 col-md-7 col-lg-5 col-xl-4">
+                    <img class="img-fluid" src="./images/sammi-car.jpg" alt="Picture of Sam in the car">
+                </div>
+                <div id="sammiFirepit" class="sammiPic col-6 offset-5 col-lg-4 offset-lg-8">
+                    <img class="img-fluid" src="./images/sammi-firepit.jpg" alt="Picture of Sam by the firepit">
+                </div>
+                <div id="sammiSound" class="sammiPic col-5 offset-1 col-md-4 offset-md-2 col-lg-3 offset-lg-5 col-xl-3 offset-xl-6">
+                    <img class="img-fluid" src="./images/sammi-sound.jpg" alt="Picture of Sam at the sound">
+                </div>
+                <div id="sammiBeach" class="col-4 offset-6 col-lg-3 offset-lg-9 col-xl-3 offset-xl-9">
+                    <img class="img-fluid" src="./images/sammi-beach.jpg" alt="Picture of Sam at the beach">
+                </div>
+            </div>
+            <div class="row third-tier">
+                <div id="quote" class="col-5 col-lg-4">
                     <p>It came to me that every time<br> I lose a dog they take a piece
                         <br>of my heart with them, and<br> every new dog who comes<br> into my life
                         gifts me with a<br> piece of their heart. If I live<br> long enough all
                         the components<br> of my heart will be dog, and<br> I will become as 
                         generous<br> and loving as they are.</p>
                 </div>
-                <div id="miss">
-                    <p>We miss you, Sam</p>
+                <div id="sammiLuke" class="col-6 offset-5 col-lg-4 offset-lg-8">
+                    <img class="img-fluid" src="./images/sammi-luke.jpg" alt="Picture of Sam and Luke">
                 </div>
-                <div id="sammiEyes">
-                    <img src="./images/sammi-eyes.jpg" alt="Goofy picture of Sam">
+                <div id="sammiTrail" class="sammiPic col-7 offset-1 col-sm-6 col-md-5 col-lg-4 offset-lg-0">
+                    <img class="img-fluid" src="./images/sammi-trail.jpg" alt="Picture of Sam on a trail">
                 </div>
-                <div id="sammiCar" class="sammiPic">
-                        <img src="./images/sammi-car.jpg" alt="Picture of Sam in the car">
+                <div id="sammiBeachBall" class="sammiPic col-7 offset-3 col-md-6 col-lg-5 col-xl-4">
+                    <img class="img-fluid" src="./images/sammi-beach-ball.jpg" alt="Picture of Sam on the beach">
                 </div>
-                <div id="sammiFirepit" class="sammiPic">
-                    <img src="./images/sammi-firepit.jpg" alt="Picture of Sam by the firepit">
+                <div id="sammiXmas" class="sammiPic col-7 offset-4 col-md-6 col-lg-5 offset-lg-6 col-xl-4">
+                    <img class="img-fluid" src="./images/sammi-xmas.jpg" alt="Picture of Sam at Xmas">
                 </div>
-                <div id="sammiBeach">
-                    <img src="./images/sammi-beach.jpg" alt="Picture of Sam at the beach">
+                <div id="sammiEyes2" class="sammiPic col-8 offset-1 col-sm-7 col-md-6 col-lg-5 col-xl-4">
+                    <img class="img-fluid" src="./images/sammi-eyes-2.jpg" alt="Goofy picture of Sam">
                 </div>
-                <div id="sammiSound" class="sammiPic">
-                    <img src="./images/sammi-sound.jpg" alt="Picture of Sam at the sound">
+                <div class="col-5 offset-3 col-sm-4 offset-sm-4">
+                    <div id="miss">
+                        <p>We miss you, Sam</p>
+                    </div>
+                    <div id="sammiSnow">
+                        <img class="img-fluid" src="./images/sammi-snow.jpg" alt="Picture of Sam on the beach">
+                    </div>
                 </div>
-                <div id="sammiLuke">
-                    <img src="./images/sammi-luke.jpg" alt="Picture of Sam and Luke">
-                </div>
-                <div id="sammiTrail" class="sammiPic">
-                    <img src="./images/sammi-trail.jpg" alt="Picture of Sam on a trail">
-                </div>
-                <div id="sammiBeachBall" class="sammiPic">
-                    <img src="./images/sammi-beach-ball.jpg" alt="Picture of Sam on the beach">
-                </div>
-                <div id="sammiXmas" class="sammiPic">
-                    <img src="./images/sammi-xmas.jpg" alt="Picture of Sam at Xmas">
-                </div>
-                <div id="sammiEyes2" class="sammiPic">
-                    <img src="./images/sammi-eyes-2.jpg" alt="Picture of Sam on the beach">
-                </div>
-                <div id="sammiSnow">
-                    <img src="./images/sammi-snow.jpg" alt="Picture of Sam on the beach">
-                </div>
-            </div> <!--end row-->
-        </div> <!--end container-->
+            </div>
+        </div>
     <script
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
