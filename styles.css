@@ -249,13 +249,17 @@ body {
     left: 0;
     color: gray;
     margin-top: 10px;
-    font-size: 1em;
+    font-size: 1.1em;
     display: none;
 }
 
 @media (min-width: 576px) {
     body {
         font-size: 1em;
+    }
+
+    #quote {
+        font-size: 1.3em;
     }
 }
 
@@ -265,13 +269,17 @@ body {
     }
 
     #quote {
-        font-size: .9em;
+        font-size: 1em;
     }
 }
 
 @media (min-width: 992px) {
     body {
         font-size: 1.5em;
+    }
+
+    #quote {
+        font-size: 1.2em;
     }
 }
 
@@ -281,7 +289,7 @@ body {
     }
 
     #quote {
-        font-size: .74em;
+        font-size: 1em;
     }
 
     #sammiSnow,
